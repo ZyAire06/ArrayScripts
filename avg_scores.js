@@ -8,9 +8,9 @@ function getAverage(myScores) {
      let numMyScores = myScores.length;
     for(let i=0; i < numMyScores; i++){
         console.log(`i is ${i}`);
-         
+        let avg =(sum/numMyScores).toFixed(2);
         
-       
+       return avg;
     }
 
     
